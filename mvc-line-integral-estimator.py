@@ -188,17 +188,17 @@ def graphDefinedIntegralEstimation(function, step_values, step_heights, step_siz
 
 print()
 # this represents the function (integrand) you are integrating across
-function_string = "(np.sin(x) * np.cos(x**2) + 5) * (np.sqrt(1 + 4*x**2))"
+function_string = ""
 # remember that it must be formatted in the numpy style, but in a string! (https://www.geeksforgeeks.org/numpy-mathematical-function/)
 
 
 # change these variables depending on the problem too
 lower = 0
-upper = 2*pi
-steps = 100000
+upper = 10
+steps = 10
 
-x_offset = 1
-y_offset = 10
+x_offset = 5
+y_offset = 5
 
 # run the estimator/grapher
 
